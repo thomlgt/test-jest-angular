@@ -1,0 +1,4 @@
+<div *ngFor="let dog of dogs">
+    <app-dog [dog]="dog"></app-dog>
+    <button (click)="buyDog(dog)" data-role="buy-button">Acheter</button>
+</div>
